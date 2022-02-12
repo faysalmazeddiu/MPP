@@ -1,0 +1,11 @@
+Answer ::
+
+equals() and hashCode() methods was overridden by Employee class with all it's properties like name , 
+salary and visited. but, at period of runtime, the value of  boolean property "visited" has been set up 
+true inside the removeDuplicates() method of EmployeeInfo class for Employee object which already was 
+visited. on the other hand, the value of the property visited =false has been added in dupsRemoved list.
+Now,whenever HashMap.containsKey() compare employee object, it invokes  equals() and hashCode() methods that
+also check the visited property which result is always false.
+
+best practice is , if it possible to change a property during run time, it is better to not compare that 
+property inside equals and hashCode methods overriding.

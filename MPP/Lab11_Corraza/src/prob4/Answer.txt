@@ -1,0 +1,45 @@
+
+public static double sum(Collection<? extends Number> nums) {
+		double s = 0.0;
+		for (Number num : nums)
+			s += num.doubleValue();
+		return s;
+}
+
+
+
+
+
+a. Is there a compiler error in the following lines of code? If so, where?
+
+				List<Integer> ints = new ArrayList<>();
+					ints.add(1);
+					ints.add(2);
+				List<? extends Number> nums = ints;
+					double dbl = sum(nums);
+					nums.add(3.14);  // Compile error  
+					
+
+Answer ::  " nums.add(3.14); "  ======> Here will be Compile error.
+	add() method of Collection framework does not allow bounded wild card but it
+	accept generic type.therefore, double value can not be added here.
+
+
+
+b. Is there a compiler error in the following lines of code? If so, where?
+		List<Object> objs = new ArrayList<>();
+			objs.add(1);
+			objs.add("two");
+		List<? super Integer> ints2 = objs;
+			ints.add(3);
+			double dbl = sum(ints2);   //Compile error
+			
+			
+
+Answer :: "double dbl = sum(ints2); "=======> Here will be Compile error.
+          because,Collection<? extends Number> can not hold List<? super Integer>.sum method only accept those type who extends Number class.
+			
+
+
+
+

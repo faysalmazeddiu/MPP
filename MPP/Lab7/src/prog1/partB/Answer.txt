@@ -1,0 +1,21 @@
+Answer ::
+
+
+The equals method of Object class was not overridden properly
+by Employee class.
+
+right way to override equals method: 
+
+	@Override
+	public boolean equals(Object obj) {
+		
+		if (obj == null) {
+			return false;
+		}
+		if(!(obj instanceof Employee)){
+			return false;
+		}
+		Employee e = (Employee) obj;
+		return e.name.equals(name) && e.salary == salary;
+	}
+

@@ -1,0 +1,21 @@
+Here , we are observing that , there are two instance :
+
+Person p1 = new PersonWithJob("Joe", 30000);
+Person p2 = new Person("Joe"); 
+
+
+p1.equals(p2) : false. the reason is
+
+it(P1) holds the object of PersonWithJob. 
+PersonWithJob  is  a child class of Person class. So it(P1) is the 
+instanceOf Person Class but Person is not the instanceOf PersonWithJob class.
+as a consequence  p1.equals(p2) statement delivers false.
+
+
+
+
+p2.equals(p1) : true. the reason is
+
+as P2 holds the object of parent class Person and P1 holds the object of Child class PersonWithJob.
+so, P1 is always the instanceOf it's parent P2. moreover equality was checked based on name attributes.
+as a result,  p2.equals(p1) statement returns true.

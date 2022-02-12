@@ -1,0 +1,8 @@
+Answer ::
+
+HashMap was used here to find out the duplicate objects of Employee.besides,
+HashMap.containsKey() internally check the equality of hashCode of Object 
+superclass but sub class "employee" did not override the hashCode() method. 
+since, hashCode() was not override, so default  hashCode() method generates
+different hash codes for different objects for same value. it will function perfectly ,
+if hashCode() method is overridden in Employee class

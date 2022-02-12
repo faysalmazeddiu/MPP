@@ -1,0 +1,32 @@
+Write a short essay discussing the relationship between an SCI principle
+of your choosing and a Computer Science principle that is relevant for
+this MPP course. Richer content will be awarded more credit.
+
+Answer :::
+
+There are lot of similarities , Which I have observed between our MPP course and SCI. 
+as we know that , Knowledge is based on perception. We can gain knowledge by practicing 
+TM and SCI with less effort. Both SCI and TM offer us key to achieve knowledge. We already 
+know that programing is fully related with data structure .In data structure , we have 
+learned about HashMap , which store data  based on key value pair. By using key , we can
+access value  from HashMap. Likewise, SCI and TM both are the main key to obtain knowledge
+from our surrounding environment.
+
+From the MPP course we have learned about lambda expression and stream API, which make 
+the code more compact , reusable and more readable .similarly, practicing TM plays a vital
+role to change human behavior. For instance , It helps to become more rejuvenate ,creative, 
+productive and innovative. moreover it assist practitioners   to achieve pure consciousness. 
+TM is a infinitely adaptable field of pure  consciousness and intelligence that can be reused 
+by individuals anytime.
+
+Apart from, we have learned about Inheritance and composition. It helps developer to reuse and
+reduce code redundancy. At same way SCI and TM both help practitioners to release stress and 
+tiredness of human body.
+
+So, after I got this MPP course with several topic like lambda, Generics and Stream knowledge, 
+I became realized that if we are having pure consciousness, we all could accept all kinds of 
+feelings or emotions and awareness without any worrying too much. And we all can return the 
+results  by making them clear and pure, leading to the happy and good lives.
+
+
+ 

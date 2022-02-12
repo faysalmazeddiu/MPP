@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="height"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="length"/>
+			<item value="height"/>
+			<item value="FilterInterface"/>
+			<item value="e2"/>
+			<item value="e1"/>
+			<item value="defineMiddlePanel"/>
+			<item value="defineTopPanel"/>
+			<item value="middlePanel"/>
+			<item value="topPanel"/>
+			<item value="mainPanel"/>
+			<item value="rightPanel"/>
+			<item value="leftPanel"/>
+			<item value="defineOuterMiddle"/>
+			<item value="clearData"/>
+			<item value="authLastNameField"/>
+		</list>
+		<list key="replacehistory">
+			<item value="height"/>
+			<item value=""/>
+			<item value="MyOwnInterface"/>
+			<item value="emp2"/>
+			<item value="emp1"/>
+			<item value="setCenterPanel"/>
+			<item value="setUpperPanel"/>
+			<item value="centerPanel"/>
+			<item value="upperPanel"/>
+			<item value="topMostPanel"/>
+			<item value="panelForRight"/>
+			<item value="panelForLeft"/>
+			<item value="panelForMiddle"/>
+			<item value="setOuterMiddlePanel"/>
+			<item value="resetData"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1004"/>
+		<item key="DIALOG_Y_ORIGIN" value="268"/>
+		<item key="DIALOG_WIDTH" value="294"/>
+		<item key="DIALOG_HEIGHT" value="408"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

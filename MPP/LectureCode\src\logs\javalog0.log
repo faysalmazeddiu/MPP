@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-12T17:06:22.267273Z</date>
+  <millis>1636736782267</millis>
+  <nanos>273000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>lesson10.lecture.trickycatch4_trywithres.MyClassMyBuff</class>
+  <method>handleFile</method>
+  <thread>1</thread>
+  <message>Main exception: textt (No such file or directory)</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-14T08:31:02.693737Z</date>
+  <millis>1636878662693</millis>
+  <nanos>737000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>lesson10.lecture.trickycatch1.MyClass_old</class>
+  <method>handleFile</method>
+  <thread>1</thread>
+  <message>1st IOException: textt (No such file or directory)</message>
+</record>
+<record>
+  <date>2021-11-14T08:31:02.726911Z</date>
+  <millis>1636878662726</millis>
+  <nanos>911000</nanos>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>lesson10.lecture.trickycatch1.MyClass_old</class>
+  <method>handleFile</method>
+  <thread>1</thread>
+  <message>Caught 2nd IOException: error closing readers</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-14T08:34:49.416396Z</date>
+  <millis>1636878889416</millis>
+  <nanos>396000</nanos>
+  <sequence>0</sequence>
+  <logger>global</logger>
+  <level>WARNING</level>
+  <class>lesson10.lecture.trickycatch1.MyClass_old</class>
+  <method>handleFile</method>
+  <thread>1</thread>
+  <message>1st IOException: textt (No such file or directory)</message>
+</record>
+</log>

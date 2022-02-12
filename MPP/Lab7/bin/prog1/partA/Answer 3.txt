@@ -1,0 +1,8 @@
+Answer ::
+
+six interfaces are implemented by java ArrayList : they are 
+(1) Cloneable (2) Iterable<E> (3) Collection<E> (4) RandomAccess
+(5) List<E>   (6) Serializable
+
+apart from, ArrayList also extends one class that one is 
+AbstractList<E>

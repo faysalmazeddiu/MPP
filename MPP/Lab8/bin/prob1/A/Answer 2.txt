@@ -1,0 +1,29 @@
+Short answer ::
+
+a. For each lambda expression below, name the parameters and the free variables.
+
+i. Runnabler=()→ {
+	int[][] products = new int[s][t]; 
+	for (int i = 0; i < s; i++) {
+		for(int j = i + 1; j < t; j++) { 
+			products[i][j] = i * j;
+		} 
+	}
+}
+
+Answer:to fix the array size, we have to variable s and t which are free variable.
+for two loops , we have two initialize value i and j both are free variables.
+but here does not have any parameter.  
+
+
+
+ii.Comparator<String> comp = (s, t) → {
+	if(ignoreCase == true) {
+		return s.compareToIgnoreCase(t);
+	} else{
+		return s.compareTo(t);
+	} 
+}
+
+
+Answer: s and t both are parameters . only one free variable is ignoreCase

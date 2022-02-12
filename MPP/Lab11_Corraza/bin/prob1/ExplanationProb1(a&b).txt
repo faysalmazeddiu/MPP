@@ -1,0 +1,14 @@
+Answer to Question No- prob1(a):
+
+in  question(a), we have a Integer type unbounded list. so, it is not possible to add any other list of
+subclass here. "List of Integer(List<Integer>)" is not the child of the "list of Number(List<Number>)", 
+which is unintuitive . as a result "list of Integer" can not be assigned in "List of Number".
+
+
+
+Answer to Question No- prob1(b):
+
+In question(b) , I am seeing that , there is a bounded wild card that is "List<? extends Number>".so,
+it is possible to assign any kind of subtype in "List<? extends Number>". but add method of collection
+framework does not allow any bounded wild card for adding purpose. only generic type is allowed in 
+add method of collection framework. that is the reason, double value can not be added here. 

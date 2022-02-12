@@ -1,0 +1,16 @@
+Answer ::
+
+according to class diagram of PartE of Program1, 
+interface "A" has a declaration of abstract method "method()".
+interface "A" is extended by Interface "B" and "C" .since, "B" and "C" 
+is extending the interface "A", so both(B and C interfaces) must
+need to override the method "method()" of super-interface "A" as 
+a default implementation.otherwise it throw compiler error. 
+
+class "D" implements two interfaces(B and C), where both interfaces have same 
+default method [ B==>method(), C==>method() , after extending super-interface A].
+in that case , class "D" must override the default method "method()". inside the the 
+overridden method of class "D" , I need specify which inteface's method I would like to use.
+the coding will be like this : B.super.method()  or C.super.method()
+
+

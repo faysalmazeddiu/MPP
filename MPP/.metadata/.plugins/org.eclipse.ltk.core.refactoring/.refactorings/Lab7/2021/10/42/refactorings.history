@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;prog2.Main&apos; to &apos;DataMiner&apos;&#x0A;- Original project: &apos;Lab7&apos;&#x0A;- Original element: &apos;prog2.Main&apos;&#x0A;- Renamed element: &apos;prog2.DataMiner&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;prog2{Main.java[Main" matchStrategy="1" name="DataMiner" qualified="false" references="true" similarDeclarations="false" stamp="1634016011624" textual="false" version="1.0"/>
+</session>

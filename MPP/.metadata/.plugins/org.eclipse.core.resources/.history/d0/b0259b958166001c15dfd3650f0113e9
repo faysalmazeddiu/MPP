@@ -1,0 +1,5 @@
+package com.spring.initialproject;
+
+public class WelcomeController {
+
+}
